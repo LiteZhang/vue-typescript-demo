@@ -44,7 +44,7 @@ export default class HelloWorld extends Vue {
   }
   // method
   greet () {
-    alert('greeting: ' + this.msg)
+    // alert('greeting: ' + this.msg)
   }    
 }
 </script>
