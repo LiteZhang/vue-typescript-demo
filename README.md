@@ -32,10 +32,10 @@ npm i vue-class-component vue-property-decorator --save
         options: {
             appendTsSuffixTo: [/\.vue$/],
         }
-    }cak
+    }
 ```
 3. 添加tsconfig.json文件，具体配置自行查看[https://www.tslang.cn/docs/handbook/compiler-options.html]
-```json
+```js
     {
         "include": [
             "./src/**/*"
